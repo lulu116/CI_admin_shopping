@@ -261,7 +261,7 @@
                             <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu extended logout">
-                            <li><a href="#"><i class="icon-user"></i> 登录</a></li>
+                            <li><a href="<?php echo site_url('loginController')?>"><i class="icon-user"></i> 登录</a></li>
                             <li><a href="#"><i class="icon-cog"></i> 注销</a></li>
                         </ul>
                     </li>
@@ -314,7 +314,7 @@
                     <span class="arrow"></span>
                 </a>
                 <ul class="sub">
-                    <li><a class="" href="login.html">登录</a></li>
+                    <li><a class="" href="<?php echo site_url('loginController')?>">登录</a></li>
                     <li><a class="" href="">退出</a></li>
                 </ul>
             </li>
