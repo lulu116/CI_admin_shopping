@@ -4638,5 +4638,10 @@ margin-right: 21px;
 .d-sel-filter span {
     margin-right: 10px;
 }
+#upload_img_wrap li {
+    width: 100px;
+    height: 100px;
+    list-style: none;
+}
 
 
